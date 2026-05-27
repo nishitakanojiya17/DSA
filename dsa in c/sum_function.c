@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+//addition - function name
 void addition()
 {
     int a,b,c;
@@ -12,5 +12,6 @@ void addition()
 }
 void main()
 {
+    //function calling 
     addition();
 }

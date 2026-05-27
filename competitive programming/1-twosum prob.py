@@ -1,4 +1,4 @@
-#find two no in an array whose sun equals to a given target
+#find two no in an array whose su equals to a given target
 
 def two_sum(arr, target):
     n=len(arr)
@@ -7,7 +7,7 @@ def two_sum(arr, target):
         for j in range(i+1,n):
             if arr[i] + arr[j] == target:
                # return (i, j) # return the index of the pair
-                return(arr[i],arr[j])
+                return(arr[i],arr[j]) #retrun the no the digit of the pair 
     return None
 arr=[2, 7, 11, 15]
 target=9
