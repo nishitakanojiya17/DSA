@@ -1,0 +1,10 @@
+string built in function 
+string.h pre defined library used to perform string operation and manipulation on string 
+some of the functions are
+1. strlen()
+2. strrev()
+3. strupr()
+4. strlwr()
+5. strcat()
+6. strcpy()
+7. strcmp()- compare two  string 
