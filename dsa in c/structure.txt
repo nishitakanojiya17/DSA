@@ -1,0 +1,20 @@
+struture : structure is a collection of differnt data type and we use structure data type to store details about prodcut , person.\
+
+// syntax -
+struct mouse{
+    char name[20];
+    char color[20];
+    int price;
+    float rating;
+};
+// value assign
+struct mouse m1,m2,m3;
+m1.name="hp";
+m1.color="black";
+m1.price=300;
+m1.rating=4.5;
+
+// display 
+printf("%s,m1.name);
+printf("%s,m1.color);
+printf("%d,m1.price);
