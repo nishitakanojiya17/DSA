@@ -7,8 +7,7 @@ class solution:
             return "No is palindrome"
         else:
             return "No is not palindrome"
-        #return str(num)==str(num)[::-1]
-  
+        
     
     
 obj=solution()

@@ -1,5 +1,5 @@
 #Given an integer array nums, for each element nums[i], find how many numbers in the array are smaller than it.
-
+# based on brute force 
 class solution:
     def smallernumber(self,num):
         ans=[]

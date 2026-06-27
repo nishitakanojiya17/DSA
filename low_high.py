@@ -1,5 +1,5 @@
 #Given two non-negative integers low and high, return the count of odd numbers between low and high (inclusive).
-
+# based on brute force 
 class Solution:
     def countOdds(self, low: int, high: int) -> int:
 
@@ -12,4 +12,4 @@ class Solution:
         return count
     
 obj= Solution()
-print(obj.countOdds(3,10))  # Output: 3 (The odd numbers between 3 and 7 are 3, 5, and 7)
+print(obj.countOdds(3,10))  # Output: 4 (The odd numbers between 3 and 10 are 3, 5, 7, and 9)
